@@ -62,5 +62,10 @@ public class ContaBancaria {
         System.out.println("Usuário desconectado.");
         System.out.println("=================PROGRAMA FINALIZADO=================");
     }
+    void bloquear() {
+        System.out.println("==============OPÇÃO INVÁLIDA==================");
+        System.out.println("Por favor, tente novamente.");
+    }
+
 }
 

@@ -33,8 +33,7 @@ public class Main {
                     Conta.sair();
                     break;
                 default:
-                    System.out.println("==============OPÇÃO INVÁLIDA==================");
-                    System.out.println("Por favor, tente novamente.");
+                   Conta.bloquear();
             }
         } while (opcao != 0);
     }
